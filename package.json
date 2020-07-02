@@ -1,0 +1,31 @@
+{
+  "name": "base-projeto-node-e-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev:server": "ts-node-dev --transpileOnly --ignore-watch node_modules src/server.ts"
+  },
+  "dependencies": {
+    "date-fns": "^2.14.0",
+    "email-validator": "^2.0.4",
+    "express": "^4.17.1",
+    "gerador-validador-cpf": "^5.0.0-beta.0",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.20",
+    "uuidv4": "^6.1.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "@types/mongoose": "^5.7.29",
+    "@typescript-eslint/eslint-plugin": "^2.28.0",
+    "@typescript-eslint/parser": "^2.28.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-import-resolver-typescript": "^2.0.0",
+    "eslint-plugin-import": "2.20.1",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.8.3"
+  }
+}
